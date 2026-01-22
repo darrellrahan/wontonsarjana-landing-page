@@ -59,7 +59,7 @@ export function Hero() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <a
-              href="https://wa.me/6285811090227"
+              href="https://wa.me/6282315284026"
               className="px-8 py-4 rounded-full text-lg transition-transform hover:scale-105 shadow-lg"
               style={{
                 backgroundColor: "var(--maroon)",

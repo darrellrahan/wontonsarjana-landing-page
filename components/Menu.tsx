@@ -98,7 +98,7 @@ export function Menu() {
         {/* CTA */}
         <div className="text-center mt-16">
           <a
-            href="https://wa.me/6285811090227"
+            href="https://wa.me/6282315284026"
             className="px-10 py-4 rounded-full text-lg transition-transform hover:scale-105 shadow-lg"
             style={{
               backgroundColor: "var(--maroon)",

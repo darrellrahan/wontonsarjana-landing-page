@@ -1,11 +1,11 @@
-import { FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
 
 export function Footer() {
   return (
     <footer className="py-12 px-4" style={{ backgroundColor: "var(--black)" }}>
       <div className="container mx-auto max-w-6xl">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="flex flex-col md:flex-row gap-8 lg:gap-0 justify-between mb-8">
           {/* Brand */}
           <div>
             <h3
@@ -35,12 +35,12 @@ export function Footer() {
             </h4>
             <div className="space-y-3">
               <a
-                href="https://wa.me/6285811090227"
+                href="https://wa.me/6282315284026"
                 className="flex items-center gap-3 transition-transform hover:scale-105"
               >
                 <FaWhatsapp size={20} style={{ color: "var(--yellow)" }} />
                 <span style={{ color: "var(--yellow-light)" }}>
-                  085811090227
+                  082315284026
                 </span>
               </a>
               <a
@@ -62,32 +62,6 @@ export function Footer() {
                 </span>
               </a> */}
             </div>
-          </div>
-
-          {/* Location */}
-          <div>
-            <h4
-              className="text-xl mb-4"
-              style={{
-                color: "var(--yellow)",
-                fontWeight: 600,
-              }}
-            >
-              Lokasi
-            </h4>
-            <a
-              href="https://maps.app.goo.gl/8d8X7yWipbfgTVCcA"
-              className="flex items-start gap-3 transition-transform hover:scale-105"
-            >
-              <FaMapMarkerAlt
-                size={20}
-                style={{ color: "var(--yellow)" }}
-                className="shrink-0 mt-1"
-              />
-              <span style={{ color: "var(--yellow-light)" }}>
-                Politeknik Negeri Bandung
-              </span>
-            </a>
           </div>
         </div>
 
